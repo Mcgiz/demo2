@@ -908,4 +908,8 @@ button,
 .buy-now:hover {
   background-color: #e73370;
 }
+.button {
+  margin-top: 1.5em;
+}
+
 
