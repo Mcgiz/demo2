@@ -885,19 +885,28 @@ button,
       left: auto;
       margin: 1em 0 0 0;
       position: relative; } }
+
+/* Center-align the Buy Now button */
 .buy-now {
-    display: inline-block;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    padding: 0.75em 2em;
-    background-color: #ff4081;
-    color: #fff !important;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 0.75em 2em;
+  background-color: #E85A1A;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
 }
 
+/* Optional hover effect */
 .buy-now:hover {
-    background-color: #e73370;
+  background-color: #e73370;
+}
+
+/* Center the <p> block that contains the button */
+#header p {
+  text-align: center;
 }
