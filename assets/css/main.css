@@ -886,6 +886,9 @@ button,
       margin: 1em 0 0 0;
       position: relative; } }
 
+.button.buy-now {
+  border-radius: 12px; /* 自定义圆角 */
+}
 
 
 
